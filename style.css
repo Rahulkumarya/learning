@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav{
+    background-color: #202020f5;
+    height: 40px;
+    border: 6px solid white;
+
+}
+li{
+    padding-top:10px ;
+    display: inline;
+    margin-right: 175px;
+    font-family: Georgia, serif
+    font-weigh 400px;
+    color: aliceblue;
+    
+}
+ul{
+
+}
+button{
+    background-color: rgb(252, 169, 44);
+    height: 29px;
+    width: 65px;
+    padding: 4px;
+    border: 2px solid rgb(247, 235, 235)
+}
+input{
+    height: 25px;
+    
+}
+body{
+    background-color: rgb(133, 133, 204,0.2);
+}
+main{
+    flex: auto;
+    flex-direction: row(1);
+    flex-direction: column(4);
+
+}
+.container1{
+    background-color: antiquewhite;
+    
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    /* display: inline; */
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+.container2{
+    background-color: rgb(161, 161, 182);
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(56, 52, 52);
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+.container3{
+    background-color: rgb(243, 176, 30);
+    display: inline-block;
+ 
+    
+    height: 100px;
+    width:100px;
+    border: 5px solid rgba(255, 0, 0, 0.219);
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+.container4{
+    background-color: rgb(147, 194, 19);
+   
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    
+    border: 5px solid rgb(27, 235, 183);
+    margin: 20px;
+    padding: 10px;
+}
+.container{
+    display: inline-block;
+    margin-right: 50px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+
+}
+p{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 0%;
+    text-align: justify;
+}
+main{
+    height: 900px;
+}
+.fh{
+    text-align: center;
+}
+#love{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-image: url(php.jpg);
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+    /* position:absolute; */
+}
+#h{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    
+}
